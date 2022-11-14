@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro">
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:padding="22dp"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/descricao"
+        android:layout_below="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="descrição"
+        android:padding="22dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_below="@id/descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="valor"
+        android:padding="22dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/botaoEnviar"
+        android:layout_below="@id/valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_margin="23dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="322dp" />
+</RelativeLayout>
